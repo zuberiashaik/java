@@ -1,0 +1,28 @@
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		byte b=20;
+		System.out.println("Implicit type casting");
+		System.out.println("short:"+b);
+		System.out.println("char :"+b);
+		System.out.println("int:"+b);
+		System.out.println("float:"+b);
+		System.out.println("double:"+b);
+		double d=234;
+		byte b1=(byte)d;
+		char c=(char)d;
+		short s=(short)d;
+		float f=(float)d;
+		long l=(long)d;
+		System.out.println("expilict type casting");
+		System.out.println("byte:"+b1);
+		System.out.println("char:"+c);
+		System.out.println("short:"+s);
+		System.out.println("float:"+f);
+		System.out.println("long:"+l);
+		
+
+	}
+
+}
+
