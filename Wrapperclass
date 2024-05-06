@@ -1,0 +1,27 @@
+public class Wrapperclass {
+
+	void meth1() {
+	int i=50;
+		Integer ival=Integer.valueOf(i);
+		System.out.println("pdt value:"+i);
+		System.out.println("wdt value:"+ival);
+		long l=34;
+		Long lval=Long.valueOf(l);
+		System.out.println("pdt value:"+l);
+		System.out.println("wdt value:"+lval);
+	}
+	void meth2() {
+		Integer ival=new Integer(50);
+		Boolean booleanval=new Boolean("riya");
+		System.out.println("wdt value:"+ival);
+		System.out.println("wdt value:"+booleanval);
+	}
+
+	public static void main(String[] args) {
+		Wrapperclass obj=new Wrapperclass();
+		obj.meth1();
+		obj.meth2();
+		
+	}
+
+}
